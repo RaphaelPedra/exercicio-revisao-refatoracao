@@ -2,7 +2,8 @@
 #include <string>
 #include <iostream>
 
-using namespace std;
+Empregado::Empregado(){
+}
 
 double Empregado::setsalarioHora(double salarioHora){
     this-> salarioHora = salarioHora;
@@ -12,11 +13,11 @@ double Empregado::getsalarioHora(){
     return salarioHora;
 }
 
-string Empregado::setnome(string nome){
+std::string Empregado::setnome(string nome){
     this->nome = nome;
 }
 
-string Empregado::getnome(){
+std::string Empregado::getnome(){
     return nome;
 }
 
